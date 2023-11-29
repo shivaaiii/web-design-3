@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var x = Number(prompt("please enter the time:"));
+      if (x >= 6 && x < 11) {
+        alert("Good morning!");
+      } else if (x >= 11 && x < 17) {
+        alert("Good afternoon!");
+      } else if (x >= 17 && x < 20) {
+        alert("Good evening!");
+      } else if (x >= 20 && x <= 24) {
+        alert("Good night!");
+      } else if (x >= 0 && x < 6) {
+        alert("Good midnight!");
+      } else {
+        alert("You should enter correct time!(between 0-24)");
+      }
+    </script>
+  </body>
+</html>

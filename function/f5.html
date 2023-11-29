@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var x = Number(prompt("لطفا قد خود را بر حسب متر وارد کنید:"));
+      var y = Number(prompt("لطفا وزن خود را بر حسب کیلوگرم وارد کنید:"));
+
+      function BMI(x, y) {
+        return y / x ** 2;
+      }
+      var z = BMI(x, y);
+      alert(z);
+
+      if (z < 25) {
+        alert("شما متناسب هستین.");
+      } else if (z >= 25 && z <= 30) {
+        alert("شما اضافه وزن دارید.");
+      } else {
+        {
+          alert("شما چاق هستین.");
+        }
+      }
+    </script>
+  </body>
+</html>
